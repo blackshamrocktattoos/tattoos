@@ -29,7 +29,7 @@ p a{
 }
 #header ul#navigation li{
 	float: left;
-	margin: 0 0 0 73px;
+	margin: 0 0 0 66px;
 }
 #header ul#navigation li a{
 	font-family: 'GomaWesternRegular';
@@ -581,6 +581,17 @@ p a{
 }
 #content div.contact div.contact a#page-twitter:hover{
 	background: url(../images/icons.gif) no-repeat 0 -547px;
+}
+
+/*_________________________ Shop ----------------------------*/
+.shop__icon{
+	width: 316px;
+	height: 270px;
+}
+
+.shop__title{
+	color: white;
+	text-align: center;
 }
 
 /*-------------------------	Footer --------------------------*/
