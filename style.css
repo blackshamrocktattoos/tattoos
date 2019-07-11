@@ -10,6 +10,40 @@ p a{
 	text-decoration: underline;
 	color: #777777;
 }
+.loader.hidden{
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	animation: fadeOut 7s;
+	animation-fill-mode: forwards;
+}
+.tattoo-gun{
+	margin-left: 15px;
+	height: 100px;
+	width: 100px;
+	z-index: 100;
+}
+
+@keyframes fadeOut{
+	10% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		visibility: hidden;
+		
+	}
+}
 /*-------------------------	Header --------------------------*/
 #header{
 	width: 960px;
