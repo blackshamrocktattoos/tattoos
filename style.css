@@ -123,13 +123,15 @@ p a{
 	position: relative;
 }
 #content div#featured h2{
-	background: url(../images/latest-work.gif) no-repeat;
 	width: 287px;
 	height: 104px;
 	margin: 0;
-	text-indent: -99999px;
 	position: relative;
-	z-index: 2;
+}
+.title__page{
+	font-family: 'Black Ops One', cursive;
+	color: white;
+	text-decoration: none;
 }
 #content div#featured ul#section1{
 	width: 140px;
